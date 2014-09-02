@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import os
 import collections
 
@@ -38,3 +39,6 @@ def main():
             line_dict[timestamp] = line
         fp.close()
         sort_lines(line_dict, collision_lines, file)
+
+if __name__ is "__main__":
+    main()
